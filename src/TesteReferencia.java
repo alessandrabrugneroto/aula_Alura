@@ -7,7 +7,7 @@ public class TesteReferencia {
 	  System.out.println("saldo da primeira:" + primeiraConta.saldo);
 	    Conta segundaConta = primeiraConta;
 	    
-	    System.out.println("saldo da sengunda conta:"+ segundaConta.saldo);
+	    System.out.println("saldo da sengunda conta::"+ segundaConta.saldo);
 	    
 	    segundaConta.saldo += 100;
 	    System.out.println("saldo da segunda conta:"+ segundaConta.saldo);
